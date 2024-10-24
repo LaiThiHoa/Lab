@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.tab {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.tab a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.tab image{
+    width: 10px;
+    border-radius: 50%;
+}
+.tab img {
+    width: 50px; /* Chiều rộng */
+    height: 50px; /* Chiều cao */
+    border-radius: 50%; /* Bo tròn hình ảnh */
+    padding-right: 5px;
+}
+.tab a:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+    color: wheat;
+}
+
+.header {
+    background-color: beige;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(150, 161, 152, 0.815);
+    margin-top: 20px;
+}
+
+.header img {
+    width: 10px; /* Adjust size as needed */
+    border-radius: 5px;
+}
+.header img {
+    width: 50px; /* Chiều rộng */
+    height: 50px; /* Chiều cao */
+    border-radius: 50%; /* Bo tròn hình ảnh */
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.header p {
+    color: #555;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table h2 {
+    margin: 0;
+}
+.courses-section {
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.courses-section h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.course-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 250px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.course-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.course-lecture {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.view-all {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.view-all a:hover {
+    color: #0056b3;
+}
